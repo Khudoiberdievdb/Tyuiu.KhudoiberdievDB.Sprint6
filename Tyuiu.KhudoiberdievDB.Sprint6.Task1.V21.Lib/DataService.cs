@@ -5,8 +5,7 @@ namespace Tyuiu.KhudoiberdievDB.Sprint6.Task1.V21.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-             startValue = -5;
-             stopValue = 5;
+             
             int len = stopValue - startValue + 1;
             double y;
             double[] res = new double[len];
